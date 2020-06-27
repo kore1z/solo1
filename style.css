@@ -1,0 +1,49 @@
+@font-face{
+    font-family: "Ubuntu";
+    src: url(fonts/ubuntu-light.ttf);
+    src: url(fonts/Ubuntu-regular.ttf);
+    src: url(fonts/Ubuntu-bold.ttf);
+}
+body{
+ font-family: 'Ubuntu',sans-serif;
+}
+.header{
+    width: 100%;
+    max-width: 1180px;
+    margin: 0px auto;
+    padding-left:15px;
+    padding-right:15px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    box-sizing: border-box;
+}
+.nav{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 14px;
+}
+.nav>li{
+    margin-left: 15px;
+}
+.nav>li>a{
+    text-decoration: none;
+    color:#202020;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo_img{
+    display:block;
+    width: 58px;
+    height: 58px;
+    background-image:url(picture/logo.png);
+    margin-right: 20px;
+}
+.logo_text{
+    font-size: 24px;
+    color:#202020;
+    text-decoration: none;
+}
