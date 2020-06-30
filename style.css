@@ -20,6 +20,11 @@ body{
     box-sizing: border-box;
     font-weight: 700;
 }
+.footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #f7f7f7;
+}
 .wrap{
     width: 100%;
     max-width: 1180px;
@@ -130,5 +135,24 @@ body{
     display: grid;
     grid-template: 120px 120px / repeat(4, 25%);
     text-align: center;
-}//
-
+}
+.team{
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+    grid-row-gap:40px ;
+}
+.team-item{
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+}
+.team-item img{
+    margin-right: 20px;
+}
+.team-item>div{
+    flex-basis:calc(100%-100px);
+}
+.team p {
+    color:#B2B2B2;
+    font-size: 14px;
+}
